@@ -1,0 +1,238 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+:root {
+--navbar-height: 65px;
+}
+#navbar{
+    display: flex;
+    align-items: center;
+       }
+#logo{
+    display: flex;
+}
+#logo img{
+    height:55px;
+    margin: 15px;
+}
+#navbar{
+    position: absolute;
+    top: 0;
+}
+#navbar ul{
+    display: flex;
+}
+#navbar ul li{
+    padding: 20px;
+    list-style: none;
+    
+}
+#navbar ul li a{
+    text-decoration: none;
+   padding:3px 17px;
+    color: white;
+    border-radius: 20px;
+    display: block;
+    font-size: 20px;
+}
+#navbar ul li a:hover{
+    color: rgb(4, 9, 14);
+    background-color: white;
+}
+#navbar::before{
+    content: "";
+    background-color: black;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.4;
+}
+#Home{
+    display: flex;
+    flex-direction: column;
+    padding: 20px 200px;
+    justify-content: center;
+    align-items: center;
+    height: 360px;
+
+}
+#Home::before{
+    content: "";
+    background: url('img/bag1.jpg')  no-repeat center center/cover;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.89;
+
+}
+.primary{
+    padding: 12px;
+    font-size: 2.8rem;
+    color: rgb(17, 15, 15);
+}
+p{
+    font-size: 18px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.btn{
+    padding: 6px 20px;
+    border: 2px solid white;
+    background-color: rgb(81, 64, 64);
+    color: white;
+    margin: 16px ;
+    font-size: 1.0 rem;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.btn:hover{
+    color: white;
+    background-color: black;
+    
+}
+/* Secondar pizza */
+.hprimar{
+    padding: 12px;
+    font-size: 3.0rem;
+    color: rgb(17, 15, 15);
+    display: block;
+    margin: auto;
+    width: 270px;
+    height: 4px;
+}
+.services{
+    margin: -25px;
+    display: flex;
+
+}
+#box{
+    border: 2px solid rgb(81, 64, 64);
+    padding: 12px;
+    border-radius: 18px;
+    margin: 3px 38px;
+    background-color: #e9eaeb;
+    margin-top: 77px;
+        }
+#box img{
+    height: 156px;
+    display: block;
+    margin: auto;
+    margin-bottom: 16px;
+        }
+        #box h2{
+            display: block;
+            width: 152px;
+            margin: auto;
+            height: 43px;
+
+        }
+        /* client Selection */
+        #client-service{
+            position: absolute;
+height: 501px;
+width: 100%;
+
+        }
+        .h2primar{
+            font-size: 3.2rem;
+            display: block;
+            width: 257px;
+            margin: auto;
+            margin-top: 44px;
+        }
+        #client{
+            display: flex;
+            /* justify-content: center;
+            align-items: center; */
+        }
+        #client img {
+            height: 123px;
+        }
+        .client-item{
+            padding: 14px;
+        }
+        #client-service::before{
+            content: "";
+            position: absolute;
+            background: url(img/bag2.jpg)no-repeat center center/cover;
+            
+            height: 60%;
+            width: 100%;
+            z-index: -1;
+            opacity: 0.9;
+
+        }
+        /* Contact us */
+        .h3primar{
+            font-size: 3.2rem;
+            display: block;
+            width: 257px;
+            margin: auto;
+            margin-top: 300px;
+            
+
+        }
+        .contact{
+            display: block;
+            width: 274px;
+            margin: auto;
+        }
+        #btn1{
+            padding: 6px 20px;
+    border: 2px solid white;
+    background-color: rgb(81, 64, 64);
+    color: white;
+    margin: 16px ;
+    font-size: 1.0 rem;
+    border-radius: 20px;
+    cursor: pointer;
+
+        }
+        /* contact us */
+        #contectus{
+        position: relative;
+        color: #e9eaeb;
+        }
+        #contectus::before{
+            content: "";
+            position: absolute;
+            height: 100%;
+            width: 100%;
+            z-index: -1;
+            opacity: 0.8;
+            background: url(img/back12.jpg) no-repeat center center/cover;
+        }
+        .contact{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding-bottom: 34px;
+            margin-top: 34px;
+        }
+        .contact input{
+            width: 160%;
+            border-radius: 9px;
+            padding: 0.2rem;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+        }
+
+        .contact textarea{
+            width: 160%;
+            padding: 0.4rem;
+            border-radius: 9px;
+        }
+        .contact form{
+            width: 130%;
+        }
+        .contact label{
+            font-size: 1.3rem;
+            font-weight: 10%;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        }
+            
